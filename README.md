@@ -79,3 +79,12 @@ bower install DevStarter-Technology/shrbtn --save
 ## 💬 Обратная связь
 
 Если у вас есть предложения, замечания или баг-репорты — создайте issue или pull request в [репозитории на GitHub](https://github.com/DevStarter-Technology/shrbtn).
+
+## 🔐 Pro Features
+
+This package follows an **open-core licensing model**:
+
+- Core features — [MIT License](./LICENSE)
+- Optional Pro Features — require a [commercial license](./COMMERCIAL_LICENSE.md)
+
+To learn more about available Pro Features and licensing, [contact us](mailto:support@devstarter.technology).
