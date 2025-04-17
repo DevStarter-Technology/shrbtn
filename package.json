@@ -1,13 +1,14 @@
 {
   "name": "@devstarter/shrbtn",
-  "version": "0.0.2",
-  "description": "Buttons for publishing your projects on social networks and copying links.",
+  "version": "0.0.4",
+  "description": "Lightweight and stylish buttons for publishing links in social networks and copying URLs. Suitable for any web projects - blogs, landing pages, portfolios, etc.",
   "main": "dist/js/shrbtn.min.js",
   "style": "dist/css/shrbtn.min.css",
   "scripts": {
     "build:css": "node scripts/build-css.js",
     "build:js": "node scripts/build-js.js",
-    "build": "npm run build:css && npm run build:js"
+    "build:scss": "node scripts/copy-scss.js",
+    "build": "npm run build:css && npm run build:js && npm run build:scss"
   },
   "keywords": [
     "share",
