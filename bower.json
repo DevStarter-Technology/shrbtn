@@ -1,0 +1,27 @@
+{
+  "name": "shrbtn",
+  "main": [
+    "dist/js/shrbtn.min.js",
+    "dist/css/shrbtn.min.css"
+  ],
+  "version": "0.0.1",
+  "description": "Buttons for publishing your projects on social networks and copying links.",
+  "authors": [
+    "DevStarter"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "share",
+    "widget",
+    "social",
+    "clipboard",
+    "bem"
+  ],
+  "homepage": "https://github.com/DevStarter-Technology/shrbtn.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src",
+    "scripts"
+  ]
+}

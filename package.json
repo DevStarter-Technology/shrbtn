@@ -1,0 +1,29 @@
+{
+  "name": "@devstarter/shrbtn",
+  "version": "0.0.2",
+  "description": "Buttons for publishing your projects on social networks and copying links.",
+  "main": "dist/js/shrbtn.min.js",
+  "style": "dist/css/shrbtn.min.css",
+  "scripts": {
+    "build:css": "node scripts/build-css.js",
+    "build:js": "node scripts/build-js.js",
+    "build": "npm run build:css && npm run build:js"
+  },
+  "keywords": [
+    "share",
+    "widget",
+    "social",
+    "bem",
+    "clipboard",
+    "vanilla-js"
+  ],
+  "author": "DevStarter",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.2",
+    "sass": "^1.86.3"
+  }
+}
