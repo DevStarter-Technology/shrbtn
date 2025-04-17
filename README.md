@@ -10,6 +10,14 @@ NPM:
 npm i @devstarter/shrbtn
 ```
 
+BOWER:
+
+```bash
+bower install DevStarter-Technology/shrbtn --save
+```
+
+@devstarter/shrbtn
+
 ## Using
 
 ```html
